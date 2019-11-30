@@ -1,0 +1,62 @@
+body{
+    background: url("img4.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.navbar{
+    background:rgba(45, 52, 75,0.3);
+    height: 7vh;
+}
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{
+    color: white; 
+    border:1px solid white; 
+    border-radius: 3px;
+}
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+
+.navbar-brand:hover{
+    color: black;
+}
+/* a{
+    color: black;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.container>.nav>li{
+    margin: auto 10px;
+    padding: 0px 0px;
+}
+
+.container>.nav>li:hover{
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: auto 5px;
+    margin: auto 8px; 
+}
+
+
+.nav{
+    top: 10px;
+    justify-content: center;
+    height: 30px;
+} */
+
+
